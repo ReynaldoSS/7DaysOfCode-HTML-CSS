@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  font-family: var(--fonte-principal);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 96px 0 96px 0;
+}
+
+.hero__subtitulo {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vermelho);
+}
+
+.hero__titulo {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hero__texto {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza);
+  width: 45%;
+  text-align: center;
+  line-height: 30px;
+}
